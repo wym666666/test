@@ -15,7 +15,7 @@ public class MaxTempeatureMapper extends MapReduceBase implements Mapper<LongWri
 
 	private static final int MISSING = 9999;
 	
-	String rlg = "rilegou";
+	String rlg = "11111111111";
 	
 //	@Override
 	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
